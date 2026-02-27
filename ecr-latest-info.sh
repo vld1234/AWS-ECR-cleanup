@@ -12,7 +12,7 @@ AWS_REGION="${AWS_DEFAULT_REGION:-eu-west-7}"
 REPO_PREFIX="project/"
 
 echo "╔══════════════════════════════════════════════════════════════════════════════╗"
-echo "║           AOS ECR - LATEST TAG INFORMATION                                   ║"
+echo "║           ECR - LATEST TAG INFORMATION                                   ║"
 echo "╚══════════════════════════════════════════════════════════════════════════════╝"
 echo ""
 echo "Region: ${AWS_REGION}"
