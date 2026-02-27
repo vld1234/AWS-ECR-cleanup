@@ -31,7 +31,7 @@ TEMP_REPOS="/tmp/ecr-repos-$$.txt"
 trap "rm -f $TEMP_RESULTS $TEMP_REPOS" EXIT
 
 echo "╔══════════════════════════════════════════════════════════════════════════════╗"
-echo "║           AOS ECR - COMMIT TAG CLEANUP WITH PROTECTED TAGS                   ║"
+echo "║           ECR - COMMIT TAG CLEANUP WITH PROTECTED TAGS                   ║"
 echo "╚══════════════════════════════════════════════════════════════════════════════╝"
 echo ""
 echo "Region: ${AWS_REGION}"
