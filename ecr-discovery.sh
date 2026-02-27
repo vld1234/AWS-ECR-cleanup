@@ -3,7 +3,7 @@
 # ECR Discovery Script - Part 1 (Summary View)
 #
 # Purpose: List all repositories with tag counts (quick inventory)
-# Usage: ./aos-ecr-discovery.sh
+# Usage: ./ecr-discovery.sh
 ################################################################################
 
 set -euo pipefail
