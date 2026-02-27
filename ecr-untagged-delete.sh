@@ -20,7 +20,7 @@ TEMP_RESULTS="/tmp/ecr-untagged-results-$$.txt"
 trap "rm -f $TEMP_RESULTS" EXIT
 
 echo "╔══════════════════════════════════════════════════════════════════════════════╗"
-echo "║           AOS ECR - DELETE UNTAGGED IMAGES                                   ║"
+echo "║           ECR - DELETE UNTAGGED IMAGES                                   ║"
 echo "╚══════════════════════════════════════════════════════════════════════════════╝"
 echo ""
 echo "Region: ${AWS_REGION}"
