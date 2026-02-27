@@ -114,7 +114,7 @@ analyze_repository() {
 
 main() {
     echo "╔══════════════════════════════════════════════════════════════════════════════╗"
-    echo "║                  AOS ECR DISCOVERY - SUMMARY VIEW (PART 1)                   ║"
+    echo "║                  ECR DISCOVERY - SUMMARY VIEW (PART 1)                   ║"
     echo "╚══════════════════════════════════════════════════════════════════════════════╝"
     echo ""
     echo "Region: ${AWS_REGION}"
